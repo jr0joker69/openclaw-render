@@ -1,0 +1,6 @@
+{
+  "name": "openclaw-render",
+  "private": true,
+  "type": "module",
+  "dependencies": {}
+}

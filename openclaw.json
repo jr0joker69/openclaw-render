@@ -8,7 +8,7 @@
     "memory",
     "cron",
     "web",
-    "./plugins/seed-plant"
+    "./plugins/graphify-ponytail-peak-manager"
   ],
   "workspace": "/app/workspace"
 }

@@ -1,0 +1,14 @@
+{
+  "gateway": {
+    "port": 18789,
+    "bind": "0.0.0.0",
+    "auth": { "mode": "token" }
+  },
+  "plugins": [
+    "memory",
+    "cron",
+    "web",
+    "./plugins/seed-plant"
+  ],
+  "workspace": "/app/workspace"
+}

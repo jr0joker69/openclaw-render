@@ -1,0 +1,16 @@
+services:
+    - type: web
+    name: openclaw-gateway
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /health
+    envVars:
+            - key: PORT
+        value: 18789
+            - key: OPENCLAW_GATEWAY_AUTH_MODE
+        value: token
+            - key: OPENCLAW_GATEWAY_AUTH_TOKEN
+        sync: false
+            - key: NODE_ENV
+        value: production

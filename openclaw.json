@@ -1,14 +1,18 @@
 {
   "gateway": {
     "port": 18789,
-    "bind": "0.0.0.0",
+    "bind": "lan",
     "auth": { "mode": "token" }
   },
-  "plugins": [
-    "memory",
-    "cron",
-    "web",
-    "./plugins/graphify-ponytail-peak-manager"
-  ],
-  "workspace": "/app/workspace"
+  "plugins": {
+    "memory": {},
+    "cron": {},
+    "web": {},
+    "./plugins/graphify-ponytail-peak-manager": {}
+  },
+  "agents": {
+    "defaults": {
+      "workspace": "/app/workspace"
+    }
+  }
 }

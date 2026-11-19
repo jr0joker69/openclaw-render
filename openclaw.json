@@ -1,8 +1,8 @@
 {
   "gateway": {
-    "port": 18789,
+    "port": 0,
     "bind": "lan",
-    "auth": { "mode": "token" }
+    "auth": { "mode": "none" }
   },
   "plugins": {
     "memory": {},

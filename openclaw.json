@@ -8,5 +8,9 @@
     "defaults": {
       "workspace": "/app/workspace"
     }
+  },
+  "plugins": {
+    "slots": { "memory": "none" },
+    "deny": ["memory-core", "memory-lancedb", "webchat"]
   }
 }

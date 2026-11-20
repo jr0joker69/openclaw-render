@@ -2,7 +2,7 @@
   "gateway": {
     "port": 10000,
     "bind": "lan",
-    "auth": { "mode": "none" }
+    "auth": { "mode": "token" }
   },
   "agents": {
     "defaults": {

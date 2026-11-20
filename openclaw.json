@@ -1,14 +1,8 @@
 {
   "gateway": {
-    "port": 0,
+    "port": 10000,
     "bind": "lan",
     "auth": { "mode": "none" }
-  },
-  "plugins": {
-    "memory": {},
-    "cron": {},
-    "web": {},
-    "./plugins/graphify-ponytail-peak-manager": {}
   },
   "agents": {
     "defaults": {

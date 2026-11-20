@@ -1,0 +1,12 @@
+{
+  "id": "graphify-ponytail-peak-manager",
+  "name": "graphify-ponytail-peak-manager",
+  "description": "Graphify ponytail peak manager",
+  "activation": { "onStartup": true },
+  "enabledByDefault": false,
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

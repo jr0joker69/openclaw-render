@@ -2,7 +2,10 @@
   "gateway": {
     "port": 10000,
     "bind": "lan",
-    "auth": { "mode": "token" }
+    "auth": { "mode": "token" },
+    "controlUi": {
+      "allowedOrigins": ["https://openclaw-render.onrender.com"]
+    }
   },
   "agents": {
     "defaults": {

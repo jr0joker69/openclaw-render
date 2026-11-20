@@ -11,6 +11,8 @@
   },
   "plugins": {
     "slots": { "memory": "none" },
-    "deny": ["memory-core", "memory-lancedb", "webchat"]
+    "load": { "paths": ["/app/plugins/graphify-ponytail-peak-manager"] },
+    "allow": ["graphify-ponytail-peak-manager"],
+    "entries": { "graphify-ponytail-peak-manager": { "enabled": true } }
   }
 }
